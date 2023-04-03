@@ -1,0 +1,14 @@
+{
+    "editor.formatOnType": true, // 結尾按分號就自動格式化
+    "editor.defaultFormatter": null, // 取消默認格式化
+    "editor.tabSize": 2, // tab縮進空格數
+    "prettier.semi": true, // 結尾加分號
+    "prettier.singleQuote": true, // 單引號
+    "prettier.trailingComma": "none", // 去掉結尾的逗號
+    "vetur.format.options.tabSize": 2 , // Vue模板的tab縮進空格數
+    "emmet.triggerExpansionOnTab": true, //  这个设置将在您按下“Tab”键时自动展开 Emmet 代码块。例如，如果您输入“ul>li*3”，然后按下“Tab”键，Emmet 将自动展开为三个列表项。
+    "emmet.useInlineCompletions": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    } // 这个设置将在您键入代码时显示 Emmet 代码提示。例如，如果您输入“img”，编辑器将显示出相关的 Emmet 代码片段供您选择。
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./icofont/icofont.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <h4>面向對象 動態添加標籤頁</h4>
+      <div class="tabs-box" id="tab">
+        <!-- 加號按鈕 -->
+        <div class="tab-add">
+          <span>+</span>
+        </div>
+        <!-- 標籤 -->
+        <nav class="first-nav">
+          <ul>
+            <li class="li-active">
+              <span>測試一</span><span class="icofont-close-squared-alt"></span>
+            </li>
+            <li>
+              <span>測試二</span><span class="icofont-close-squared-alt"></span>
+            </li>
+            <li>
+              <span>測試三</span><span class="icofont-close-squared-alt"></span>
+            </li>
+          </ul>
+        </nav>
+        <!-- 內容 -->
+        <div class="tabs-con">
+          <section class="con-active">測試一</section>
+          <section>測試二</section>
+          <section>測試三</section>
+        </div>
+      </div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>

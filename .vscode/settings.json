@@ -7,8 +7,5 @@
     "prettier.trailingComma": "none", // 去掉結尾的逗號
     "vetur.format.options.tabSize": 2 , // Vue模板的tab縮進空格數
     "emmet.triggerExpansionOnTab": true, //  这个设置将在您按下“Tab”键时自动展开 Emmet 代码块。例如，如果您输入“ul>li*3”，然后按下“Tab”键，Emmet 将自动展开为三个列表项。
-    "emmet.useInlineCompletions": true,
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    } // 这个设置将在您键入代码时显示 Emmet 代码提示。例如，如果您输入“img”，编辑器将显示出相关的 Emmet 代码片段供您选择。
+    "emmet.useInlineCompletions": true // 这个设置将在您键入代码时显示 Emmet 代码提示。例如，如果您输入“img”，编辑器将显示出相关的 Emmet 代码片段供您选择。
 }

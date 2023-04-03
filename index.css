@@ -30,9 +30,9 @@ h4 {
 /* ↑最大框↑ */
 /* ↓加號按鈕↓ */
 .tab-add {
-  position: fixed;
-  top: 180px;
-  left: 1790px;
+  position:absolute;
+  top: 8px;
+  left: 968px;
   width: 30px;
   height: 30px;
   background-color: pink;
